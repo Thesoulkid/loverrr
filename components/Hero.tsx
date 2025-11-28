@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
       >
         <div className="absolute inset-0 bg-black/30 z-10" />
         <img
-          src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+          src="https://files.catbox.moe/ildlsq.jpeg"
           alt="Background"
           className="w-full h-full object-cover"
         />
