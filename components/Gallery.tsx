@@ -2,16 +2,16 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring, useVelocity } from 'framer-motion';
 
 const images = [
-  { url: "https://images.unsplash.com/photo-1621621667797-e06afc217fb0?q=80&w=2070&auto=format&fit=crop", caption: "The Beginning" },
-  { url: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070&auto=format&fit=crop", caption: "Our Spark" },
-  { url: "https://images.unsplash.com/photo-1522673607200-1645062cd958?q=80&w=2000&auto=format&fit=crop", caption: "Adventures" },
-  { url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=1974&auto=format&fit=crop", caption: "Laughter" },
-  { url: "https://images.unsplash.com/photo-1520854221256-17451cc330e7?q=80&w=1974&auto=format&fit=crop", caption: "Quiet Moments" },
-  { url: "https://images.unsplash.com/photo-1534352932338-78216d00e00c?q=80&w=2069&auto=format&fit=crop", caption: "Dreams" },
-  { url: "https://images.unsplash.com/photo-1513279922550-250c21291e3e?q=80&w=1974&auto=format&fit=crop", caption: "Together" },
-  { url: "https://images.unsplash.com/photo-1623157581177-3e3a985550a2?q=80&w=2070&auto=format&fit=crop", caption: "Forever" },
-  { url: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?q=80&w=2070&auto=format&fit=crop", caption: "Us" },
-  { url: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=2069&auto=format&fit=crop", caption: "The Journey" },
+  { url: "https://files.catbox.moe/0146d3.jpeg", caption: "The Beginning" },
+  { url: "https://files.catbox.moe/sjajmv.jpeg", caption: "Our Spark" },
+  { url: "https://files.catbox.moe/u71sdt.jpeg", caption: "Adventures" },
+  { url: "https://files.catbox.moe/ytcghe.jpeg", caption: "Laughter" },
+  { url: "https://files.catbox.moe/7xjzux.jpeg", caption: "Quiet Moments" },
+  { url: "https://files.catbox.moe/ildlsq.jpeg", caption: "Dreams" },
+  { url: "https://files.catbox.moe/u3b094.jpeg", caption: "Together" },
+  { url: "https://files.catbox.moe/ahfrm9.jpeg", caption: "Forever" },
+  { url: "https://files.catbox.moe/3k45p2.jpeg", caption: "Us" },
+  { url: "https://files.catbox.moe/5v6yhp.jpeg", caption: "The Journey" },
 ];
 
 export const Gallery: React.FC = () => {
