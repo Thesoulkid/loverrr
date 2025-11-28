@@ -45,10 +45,10 @@ export const Collections: React.FC = () => {
               className="block"
               whileHover={{ scale: 1.1, rotateZ: 2 }}
             >
-              25
+              14
             </motion.span>
-            <span className="block text-4xl md:text-6xl my-4 text-stone-700 font-light italic">December</span>
-            <span className="block text-6xl md:text-8xl text-stone-300">2025</span>
+            <span className="block text-4xl md:text-6xl my-4 text-stone-700 font-light italic">Feb</span>
+            <span className="block text-6xl md:text-8xl text-stone-300">2030</span>
           </h2>
           
           <motion.p 
