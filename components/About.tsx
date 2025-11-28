@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const storyPoints = [
-  { year: "2018", title: "First Meeting", desc: "A chance encounter at a coffee shop that changed everything.", align: "left" },
-  { year: "2020", title: "The Yes", desc: "Under the starlit sky, a promise was made forever.", align: "right" },
-  { year: "2025", title: "The Beginning", desc: "As we step into forever, hand in hand.", align: "left" }
+  { year: "Jul 02 / 2025", title: "First Meeting", desc: "A chance encounter at a coffee shop that changed everything.", align: "left" },
+  { year: "Aug 28 / 2025", title: "The Yes", desc: "Under the starlit sky, a promise was made forever.", align: "right" },
+  { year: "Sep 2", title: "The Beginning", desc: "As we step into forever, hand in hand.", align: "left" }
 ];
 
 export const About: React.FC = () => {
