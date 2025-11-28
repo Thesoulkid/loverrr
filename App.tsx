@@ -106,7 +106,7 @@ const App: React.FC = () => {
   return (
     <div className="relative font-sans text-stone-700 selection:bg-rose-200 selection:text-rose-900 overflow-x-hidden perspective-container">
       <audio ref={audioRef} loop>
-        <source src="https://assets.mixkit.co/music/preview/mixkit-wedding-dream-piano-695.mp3" type="audio/mpeg" />
+        <source src="https://files.catbox.moe/0u5cvy.mp3" type="audio/mpeg" />
       </audio>
 
       <FloatingParticles />
